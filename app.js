@@ -71,10 +71,6 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
     document.querySelector(".player-" + activePlayer + "-panel").classList.remove("active");
     document.querySelector(".player-"+ activePlayer + "-panel").classList.add("winner")
     document.querySelector(".dice").style.display = "none";
-    activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
-    document.querySelector("#name-" + activePlayer).innerHTML= "Better luck next time.";
-    document.getElementById("name-" + activePlayer).classList.add("loser-name");
-    document.getElementById("name-" + activePlayer).classList.remove("player-name");
     gamePlaying = false;
   }
   else{
