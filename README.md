@@ -1,5 +1,5 @@
 # Pig-Game
 
-A fun game built using vanilla JavaScript.
+A fun little game built using vanilla JavaScript.
 
 
